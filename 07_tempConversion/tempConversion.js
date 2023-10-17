@@ -1,10 +1,10 @@
-const convertToCelsius = function(temp) {
-  let ans = (temp - 32) * 5 / 9;
+const convertToCelsius = function(fahrenheit) {
+  let ans = (fahrenheit - 32) * 5 / 9;
   return Number(ans.toFixed(1));
 };
 
-const convertToFahrenheit = function(temp) {
-  let ans = temp * 9 / 5 + 32;
+const convertToFahrenheit = function(celsius) {
+  let ans = celsius * 9 / 5 + 32;
   return Number(ans.toFixed(1));
 };
 
